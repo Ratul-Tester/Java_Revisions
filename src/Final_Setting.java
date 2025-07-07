@@ -4,7 +4,7 @@ public class Final_Setting {
         final int intage = 124;
         final short shortage = 125;
         final double floatage = 125.50;
-        //age = 124;
+        //byteage = 124;
         System.out.println(byteage);
         System.out.println(intage);
         System.out.println(shortage);
