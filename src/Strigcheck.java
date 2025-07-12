@@ -9,6 +9,7 @@ public class Strigcheck {
         System.out.println(name==name2);
         System.out.println(name==name3);
         System.out.println(name2==name3);
+        System.out.println("End of Program");
 
     }
 }
