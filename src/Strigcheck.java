@@ -9,6 +9,12 @@ public class Strigcheck {
         System.out.println(name==name2);
         System.out.println(name==name3);
         System.out.println(name2==name3);
+        System.out.println(name.getBytes());
+        System.out.println(name2.getBytes());
+        System.out.println(name3.getBytes());
+        System.out.println(name.toLowerCase());
+        System.out.println(name.chars());
+        System.out.println(name.length());
         System.out.println("End of Program");
 
     }
