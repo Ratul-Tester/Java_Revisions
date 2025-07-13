@@ -1,3 +1,5 @@
+package Practice1;
+
 public class Comparators {
     public static void main(String[] args) {
         int a = 0 , b = 10;

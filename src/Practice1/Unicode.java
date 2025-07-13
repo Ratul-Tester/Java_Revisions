@@ -1,3 +1,5 @@
+package Practice1;
+
 public class Unicode {
     public static void main(String[] args) {
         char unicode0 = '\u0F62';
