@@ -13,6 +13,5 @@ public class Concat {
         System.out.println(a/b+name);
         System.out.println(a-b+name);
         System.out.println(a%b+name);
-
     }
 }
