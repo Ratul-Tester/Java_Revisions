@@ -1,3 +1,5 @@
+package Practice2;
+
 public class Strigcheck {
     public static void main(String[] args) {
         String name = "Ratul";

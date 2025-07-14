@@ -1,3 +1,5 @@
+package Practice1;
+
 public class MadJVM {
     public static void main(String[] args) {
 
