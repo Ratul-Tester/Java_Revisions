@@ -1,4 +1,4 @@
-package Practice2;
+package Practice3;
 
 public class Terrena {
     public static void main(String[] args) {
