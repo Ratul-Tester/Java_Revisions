@@ -33,8 +33,7 @@ public class WeekDays {
             default:
                 System.out.println("Out of Range, LOL may be you are from another Planet");
         }
-        //if (day>=0 && day<7){
-        //System.out.println("Out of Range, LOL may be you are from another Planet");}
+
 
     }
 }
