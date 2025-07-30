@@ -6,10 +6,10 @@ public class GradeTech {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the total marks obtained:");
-        double omarks = sc.nextDouble();
+        float omarks = sc.nextFloat();
         System.out.println("Enter the Full marks in Total:");
-        double fmarks = sc.nextDouble();
-        double result = omarks/fmarks*100;
+        float fmarks = sc.nextFloat();
+        float result = omarks/fmarks*100;
         int percentage = (int)result/10;
 
         switch (percentage){
