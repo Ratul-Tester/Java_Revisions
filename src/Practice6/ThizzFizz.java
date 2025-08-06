@@ -1,3 +1,5 @@
+package Practice6;
+
 import java.util.Scanner;
 
 public class ThizzFizz {
@@ -10,7 +12,7 @@ public class ThizzFizz {
 
         for (int i=0;i<=100;i++){
             if (i%Thizz==0 && i%Fizz==0 ){
-                System.out.println("ThizzFizz");
+                System.out.println("Practice6.ThizzFizz");
             } else if (i%Thizz == 0) {
                 System.out.println("Thizz");
             } else if (i%Fizz == 0) {
