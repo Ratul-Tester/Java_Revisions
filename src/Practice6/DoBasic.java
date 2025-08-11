@@ -1,4 +1,4 @@
-package Practice7;
+package Practice6;
 
 import java.util.Scanner;
 
