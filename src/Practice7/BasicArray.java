@@ -1,5 +1,7 @@
 package Practice7;
 
+import java.util.Arrays;
+
 public class BasicArray {
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5};
@@ -35,7 +37,33 @@ public class BasicArray {
             System.out.print(allNames[i]+" ");
         }
         System.out.println("\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
-
-
+        int[] hole1 = {1,2,3};
+        int[] hole2 = {1,2,3};
+        int[] hole3 = hole1;
+        System.out.println(hole1);
+        System.out.println(hole2);
+        System.out.println(hole3);
+        System.out.println(hole1==hole3);
+        System.out.println(Arrays.equals(hole2, hole3)); //checks contains which is true
+        System.out.println(hole1.equals(hole3)); //checks address which is true
+        System.out.println(hole2.equals(hole3)); //checks address which is false
+        System.out.println("\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+        String k ="1";
+        String j ="1";
+        System.out.println(k.contentEquals(j));
+        System.out.println(k.equals(j));
+        System.out.println("\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+        int[] lone = {1,2,4,16,25};
+        System.out.println(lone.length); //length=5
+        System.out.println(Arrays.stream(lone).max()); //max-25
+        System.out.println(Arrays.stream(lone).min()); //min-1
+        for (int i = 0; i < lone.length; i++) {
+            System.out.println("The LONE numbers are: "+lone[i]);
+        }
+        System.out.println("\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+        int[] multi = {2,3,4};
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(multi[0]+"X"+i+"="+multi[0]*i+"\t"+multi[1]+"X"+i+"="+multi[1]*i+"\t"+multi[2]+"X"+i+"="+multi[2]*i);
+        }
     }
 }
