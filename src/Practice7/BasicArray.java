@@ -3,6 +3,7 @@ package Practice7;
 public class BasicArray {
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5};
+        System.out.println(nums.length);
         System.out.print(nums[4]);
         System.out.print(" "+nums[3]);
         System.out.print(" "+nums[2]);
@@ -25,7 +26,15 @@ public class BasicArray {
             System.out.print(ages[i]+" ");
         }
         System.out.println("\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
-
+        String[] allNames = new String[4];
+        allNames[0]="Hare";
+        allNames[1]="Krishna";
+        allNames[2]="Hare";
+        allNames[3]="Ram";
+        for (int i = 0; i < allNames.length; i++) {
+            System.out.print(allNames[i]+" ");
+        }
+        System.out.println("\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
 
 
     }
