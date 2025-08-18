@@ -24,5 +24,8 @@ public class MarksArray {
         float hindi = marks[4];
         System.out.println("The marks you got in maths is: "+maths+"\nThe marks you got in science is: "+science+"\nThe marks you got in socialStudies is: "+socialStudies+"\nThe marks you got in english is: "+english+"\nThe marks you got in hindi is: "+hindi);
         float total = maths+science+socialStudies+english+hindi;
+        System.out.println("The total marks is : "+total+" out of 500");
+        float percentage = total/500*100;
+        System.out.println("And the percentage is : "+percentage+"%");
     }
 }
