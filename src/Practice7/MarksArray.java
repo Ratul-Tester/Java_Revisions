@@ -27,5 +27,29 @@ public class MarksArray {
         System.out.println("The total marks is : "+total+" out of 500");
         float percentage = total/500*100;
         System.out.println("And the percentage is : "+percentage+"%");
+        for (int i = 0; i < marks.length; i++) {
+            if (marks[i]<40) {
+                System.out.println("You are failed in a Subject, as you scored: "+marks[i]);
+            } else if (marks[i]>=85) {
+                System.out.println("Congrats you are Awesome, as you scored: "+marks[i]+" in one of the subject");
+            }
+        }
+        if (percentage<=100 && percentage>=90) {
+            System.out.println("You are a Genius, as you have scored "+percentage+"%");
+        } else if (percentage<90 && percentage>=80) {
+            System.out.println("You are a Awesome, as you have scored "+percentage+"%");
+        } else if (percentage<80 && percentage>=70) {
+            System.out.println("You are a Great, as you have scored "+percentage+"%");
+        } else if (percentage<70 && percentage>=60) {
+            System.out.println("You are a Nice, as you have scored "+percentage+"%");
+        } else if (percentage<60 && percentage>=50) {
+            System.out.println("You are a Very Good, as you have scored "+percentage+"%");
+        } else if (percentage<50 && percentage>=40) {
+            System.out.println("You are a Good, Try to improve as you have scored "+percentage+"%");
+        } else if (percentage<40 && percentage>=00) {
+            System.out.println("Sorry you are a Failed, as you have scored "+percentage+"%"+" Please focus on studies and try to improve");
+        } else {
+            System.out.println("Error: Wrong input, please check");
+        }
     }
 }
