@@ -19,5 +19,12 @@ public class Strreverse {
         StringBuilder str3 = new StringBuilder(str2);
         str3.reverse();
         System.out.println(str3);
+        System.out.println("_____________");
+        String st = "123456789";
+        System.out.println(st);
+        for (int i = st.length()-1; i >=0 ; i--) {
+            System.out.print(st.charAt(i));
+        }
+
     }
 }
