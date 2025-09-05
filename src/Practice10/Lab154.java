@@ -27,6 +27,7 @@ public class Lab154 {
 
 
         // Method Calling
+        System.out.println("And the rest of the operations are as below:");
         int addition = add(Num1, Num2);
         System.out.println("Addition of the two numbers is : "+addition);
         int subtraction = sub(Num1, Num2);

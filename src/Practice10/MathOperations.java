@@ -28,6 +28,7 @@ public class MathOperations {
             break;
         }
 
+
     }
     static int division(int Num1, int Num2) {
         return Num1/Num2;
