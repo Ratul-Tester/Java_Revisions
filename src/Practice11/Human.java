@@ -1,9 +1,8 @@
 package Practice11;
 
-import java.util.Scanner;
 
 public class Human {
-    Scanner sc = new Scanner(System.in);
+
     // Below are all Attributes....
     String name;
     String dob;
@@ -18,12 +17,24 @@ public class Human {
 
 
     // Below are the behaviours / methods / functions
-    void identity(){
+    static void identity(){
         System.out.println("Below is the Identity of Human");
     }
-    String name(){
-        System.out.println("The name is "+name);
-        return "Bal";
+
+    static String name(String name){
+        System.out.println("The name is "+ name);
+        return null;
+    }
+
+    public static int add(int a, int b){
+        int sum = a+b;
+        System.out.println("The sum of two numbers is : "+sum);
+        return 0;
+    }
+
+    public static void main(String[] args) {
+        identity();
+        add(2,5);
     }
 
 }
