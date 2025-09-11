@@ -14,7 +14,7 @@ public class MetaHuman {
 
     //behaviour or functions
     String species(){
-        return n;
+        return null;
     }
     void Class (){
 

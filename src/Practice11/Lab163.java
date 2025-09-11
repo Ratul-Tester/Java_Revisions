@@ -18,5 +18,6 @@ public class Lab163 extends car{
         topSpeed();
         innerSpace();
         musicSystem();
+        gstPrice(12.6);
     }
 }
