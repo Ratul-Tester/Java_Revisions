@@ -6,10 +6,10 @@ public class Dog {
     String color;
     int lifeSpan;
 
-    void diet(){
+    static void diet(){
 
     }
-    void biteForce(){
+    static void biteForce(){
         System.out.println("Heavy force");
     }
     void speed(){

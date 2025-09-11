@@ -7,6 +7,7 @@ public class car {
     String tyres;
     String transmissionType;
     int size;
+    double price = 10.25;
 
     static void topSpeed(){
         System.out.println("Top speed in 0-80 in seconds");
@@ -18,7 +19,7 @@ public class car {
         System.out.println("Mast Music System");
     }
     static double gstPrice(double price){
-        double price = 18%;
+        System.out.println("The price of the car is "+price);
         return 0;
     }
 }
