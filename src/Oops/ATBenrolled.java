@@ -24,6 +24,17 @@ public class ATBenrolled {
         this.isEnrolled = isEnrolled;
     }
 
+    ATBenrolled(String name){
+        this.name = name;
+        System.out.println(name);
+    }
+
+    ATBenrolled(String name, String email){
+        this.name = name;
+        this.email = email;
+        System.out.println("The name is "+name+" and the email id is: "+email);
+    }
+
     ATBenrolled(String name, String email, long phoneNo) {
         this.name = name;
         this.email = email;

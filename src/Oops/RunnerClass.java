@@ -19,6 +19,9 @@ public class RunnerClass {
         System.out.println(atb4.name);
         System.out.println(atb5.name);
 
+        ATBenrolled atb6 = new ATBenrolled("Ramesh");
+        ATBenrolled atb7 = new ATBenrolled("Bhubesw","bhu@goo.com");
+
     }
 
 }
