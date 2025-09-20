@@ -23,6 +23,10 @@ public class StudentsData {
         this.batch = batch;
     }
 
+    public String toString(){
+        return "Student Name is "+name+", and Student Registration No. is "+regsno+", of batch / academic year : "+batch;
+    }
+
     void printDetails(){
         System.out.println("The name of the student is "+name+" and registration no. is "+regsno+" of batch / academic year "+batch);
     }
