@@ -14,12 +14,11 @@ public class studentDetails {
         StudentsData r5 = new StudentsData("Narmat Priyadarshini", 226742);
         StudentsData r6 = new StudentsData("Sahadev Suna", 22616345);
 
-        StudentsData[] Students = {r0,r1,r2,r3,r4,r5,r6};
+        StudentsData[] Student = {r0,r1,r2,r3,r4,r5,r6};
 
-        for (int i = 0; i < Students.length; i++) {
-            Students[i].printDetails();
+        for (int i = 0; i < Student.length; i++) {
+            System.out.println(Student[i]);
         }
-
 
     }
 
