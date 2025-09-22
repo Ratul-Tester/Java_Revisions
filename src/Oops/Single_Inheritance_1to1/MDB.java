@@ -1,4 +1,4 @@
-package Oops.Single_Inheritance;
+package Oops.Single_Inheritance_1to1;
 
 public class MDB {
     String Author;
