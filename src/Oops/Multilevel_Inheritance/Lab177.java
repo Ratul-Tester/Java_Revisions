@@ -7,7 +7,12 @@ public class Lab177 {
         Grandfather c = new Child();
 
         Father f1 = new Father();
-        Father gf1 = new Grandfather();
+        f1.extra();
+        f1.home();
+
+        //Father gf1 = new Grandfather();//Not possible
         Father c1 = new Child();
+        c1.extra();
+        c1.home();
     }
 }
