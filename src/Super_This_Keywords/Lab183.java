@@ -2,7 +2,7 @@ package Super_This_Keywords;
 
 public class Lab183 {
     public static void main(String[] args) {
-        substraction m = new substraction();
+        addition m = new addition();
         m.message();
         m.display();
 
