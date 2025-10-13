@@ -2,7 +2,7 @@ package Super_This_Keywords;
 
 public class Lab186 {
     public static void main(String[] args) {
-<<<<<<< HEAD
+
 //        maths m = new maths();
 //        maths m1 = new maths("Paper1");
         maths m2 = new maths("Paper1","maths1");
@@ -36,7 +36,7 @@ class maths extends subject{
     }
     void display(){
         System.out.println("name: "+name+", paper: "+paper);
-=======
+
         method m = new method();
         m.m2();
     }
@@ -48,6 +48,6 @@ class method{
     void m2(){
         m1();
         System.out.println("M2");
->>>>>>> a8de94bfba1a0194dd11823a78cb215a1a5d5def
+
     }
 }
