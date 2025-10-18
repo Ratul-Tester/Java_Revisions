@@ -1,4 +1,4 @@
-package Abstraction;
+package Abstraction.Browserss;
 
 public class TC1_Chrome extends BaseCLass{
     @Override

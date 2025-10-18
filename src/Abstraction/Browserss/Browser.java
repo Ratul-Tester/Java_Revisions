@@ -1,4 +1,4 @@
-package Abstraction;
+package Abstraction.Browserss;
 
 public class Browser {
     public static void main(String[] args) {
@@ -8,11 +8,8 @@ public class Browser {
         System.out.println("*********************************");
         TC2_Firefox f = new TC2_Firefox();
         f.openBrowser();
-        String cd = f.closeBrowser();
-        for (int i = 0; i < ; i++) {
-            
-        }
-        
+        f.closeBrowser();
+        System.out.println("*********************************");
 
     }
 }

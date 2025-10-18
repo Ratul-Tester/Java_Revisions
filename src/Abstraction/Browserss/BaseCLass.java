@@ -1,4 +1,4 @@
-package Abstraction;
+package Abstraction.Browserss;
 
 abstract class BaseCLass {
     abstract String openBrowser();

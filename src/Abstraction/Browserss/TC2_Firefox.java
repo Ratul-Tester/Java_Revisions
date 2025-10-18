@@ -1,4 +1,4 @@
-package Abstraction;
+package Abstraction.Browserss;
 
 public class TC2_Firefox extends BaseCLass{
     @Override
