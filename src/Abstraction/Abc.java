@@ -1,7 +1,11 @@
 package Abstraction;
 
 public class Abc {
-
+    public static void main(String[] args) {
+        cd c = new cd();
+        c.m1();
+        c.m2();
+    }
 
 }
 abstract class Abcd{
